@@ -33,6 +33,9 @@ def expo(x):
 def loga(x):
     return log(x)
 
+def val_abso(x):
+    return fabs(x)
+
 # 11
 def sinus(x):
     return sin(x)
@@ -44,22 +47,24 @@ def tangente(x):
     return tan(x)
 
 
+
 print ("""Opérations possibles :
-    1- Addition
-    2- Soustraction
-    3- Multiplication
-    4- Division
-    5- Puissance d'un nombre
-    6- Racine carré
-    7- Quotient de division
-    8- Reste de division
-    9- Exponentielle d'un nombre
-    10- Logarithme d'un nombre
-    11- Trigonométrie [a : sinus, b : cosinus, c : tangente]""")
+    1 - Addition
+    2 - Soustraction
+    3 - Multiplication
+    4 - Division
+    5 - Puissance d'un nombre
+    6 - Racine carré
+    7 - Quotient de division
+    8 - Reste de division
+    9 - Exponentielle d'un nombre
+    10 - Logarithme d'un nombre
+    11 - Trigonométrie [a : sinus, b : cosinus, c : tangente]
+    12 - Valeur absolue d'un nombre""")
 
 
 while True: 
-    choix = input("Entrez votre choix (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11) :")
+    choix = input("Entrez votre choix (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12) : ")
 
     if choix in ('1','2','3','4','5','7','8'):
         num1 = float(input("Entrez le premier nombre : "))
@@ -86,7 +91,7 @@ while True:
         if choix == '8' :
             print(num1, "%", num2, "=", reste(num1, num2))
 
-    if choix in ('6','9','10'):
+    if choix in ('6','9','10','12'):
         num3 = float(input("Entrez le nombre : "))
         if choix == '6' :
             print("racine de", num3, "=", racine(num3))
@@ -96,9 +101,13 @@ while True:
     
         if choix == '10' :
             print("logarithme de", num3, "=", loga(num3))
+
+        if choix == '12' :
+            print("valeur absolue de", num3, "est", fabs(num3))
+            
     
     if choix in ('11'):
-        choix = input("Entrez votre choix de fonction (a, b, c) :")
+        choix = input("Entrez votre choix de fonction (a, b, c) : ")
 
         if choix == 'a':
             num4 = float(input("Entrez le nombre : "))
@@ -111,3 +120,6 @@ while True:
         if choix =='c':
             num6 = float(input("Entrez le nombre : "))
             print("tangente de", num6, "=", tangente(num6), "rad")
+        
+    else:
+        print("Entrez une opération valide s'il vous plaît...")
