@@ -1,9 +1,15 @@
-Débutant en informatique, j'ai décidé de voir plus loin que ce que j'apprend en école. 
+# 🧮 Calculatrice
 
-"La curiosité est le moteur de la réussite" - Ken Robinson.
+Ce projet est une calculatrice simple développée en **Python**, permettant d'effectuer des opérations mathématiques de base via une interface en ligne de commande.
 
-Connaissant les bases de Python, je me suis interressé à la possibilité de faire une calculatrice en mettant en place un système de question-réponse entre le code et l'utilisateur.
+## 📂 Contenu du Dépôt
 
-J'ai alors mis en oeuvre plusieurs opérations et voici !
+Le dépôt contient les fichiers suivants :
 
-Un petit projet simple mais fondamentale.
+- **`calculatrice.py`** : Script principal implémentant la logique de la calculatrice.
+- **`README.md`** : Documentation du projet.
+- **`.gitignore`** : Fichier pour ignorer les fichiers inutiles dans Git.
+
+## 🛠️ Langages et Technologies Utilisés
+
+- **Python** : Langage principal utilisé pour développer la calculatrice.
