@@ -1,15 +1,15 @@
-# 🧮 Calculatrice
+# 🧮 Calculator
 
-Ce projet est une calculatrice simple développée en **Python**, permettant d'effectuer des opérations mathématiques de base via une interface en ligne de commande.
+This project is a simple calculator developed in **Python**, allowing users to perform basic mathematical operations via a command-line interface.
 
-## 📂 Contenu du Dépôt
+## 📂 Repository Contents
 
-Le dépôt contient les fichiers suivants :
+The repository includes the following files:
 
-- **`calculatrice.py`** : Script principal implémentant la logique de la calculatrice.
-- **`README.md`** : Documentation du projet.
-- **`.gitignore`** : Fichier pour ignorer les fichiers inutiles dans Git.
+- **`calculatrice.py`**: The main script implementing the calculator's logic.
+- **`README.md`**: Project documentation.
+- **`.gitignore`**: File to exclude unnecessary files in Git.
 
-## 🛠️ Langages et Technologies Utilisés
+## 🛠️ Languages & Technologies Used
 
-- **Python** : Langage principal utilisé pour développer la calculatrice.
+- **Python**: The main programming language used for the calculator.
