@@ -1,15 +1,35 @@
-# 🧮 Calculator
+# 🧮 Python Calculator  
 
-This project is a simple calculator developed in **Python**, allowing users to perform basic mathematical operations via a command-line interface.
+This project is a **simple yet functional calculator** built in **Python**, designed to perform basic mathematical operations directly from the command line.  
+It’s a lightweight and educational project — perfect for practicing Python fundamentals such as functions, conditionals, and user input handling.  
 
-## 📂 Repository Contents
+---
 
-The repository includes the following files:
+## 🎯 Project Overview  
 
-- **`calculatrice.py`**: The main script implementing the calculator's logic.
-- **`README.md`**: Project documentation.
-- **`.gitignore`**: File to exclude unnecessary files in Git.
+The goal of this project is to **reinforce programming logic and problem-solving skills** while developing a useful and interactive Python tool.  
+The calculator supports basic arithmetic operations (addition, subtraction, multiplication, and division) and provides an example of how to structure clean, modular Python code.  
 
-## 🛠️ Languages & Technologies Used
+---
 
-- **Python**: The main programming language used for the calculator.
+## 📂 Repository Contents  
+
+- 🧠 **`calculatrice.py`** → Core script implementing the calculator’s logic.  
+- 📘 **`README.md`** → Project documentation and overview.  
+- 🚫 **`.gitignore`** → Defines ignored files and folders for version control.  
+
+---
+
+## 🛠️ Languages & Technologies Used  
+
+- **Python 3** → Main programming language used to build the calculator.  
+- **Command-Line Interface (CLI)** → For direct interaction with the program.  
+
+---
+
+## 💡 Skills & Concepts Developed  
+
+- 🧩 Python syntax and structure  
+- 🧮 Arithmetic operations and logical flow  
+- ⚙️ User input handling and error management  
+- 🧠 Modular coding and clean function design  
